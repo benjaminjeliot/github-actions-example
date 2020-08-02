@@ -8,7 +8,7 @@ class Example {
   void SetValue(int value);
   int GetValue();
  private:
-  int value_;
+  int value_{0};
 };
 
 #endif  // SRC_EXAMPLE_H_
